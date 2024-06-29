@@ -38,8 +38,8 @@ This project implements a real-time face recognition attendance system using Pyt
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/face-recognition-attendance-system.git
-    cd face-recognition-attendance-system
+    git clone https://github.com/ROHIT-KATOLE/Face-Recognition-Attendance-System.git
+    cd Face-Recognition-Attendance-System
     ```
 
 2. Install the required packages:
@@ -50,21 +50,21 @@ This project implements a real-time face recognition attendance system using Pyt
 
 ## Usage
 
-1. **Encode Faces**: Run `encode_generator.py` to generate and save face encodings.
+1. **Encode Faces**: Run `demo_Encode_Generator.py` to generate and save face encodings.
     ```bash
-    python encode_generator.py
+    python demo_Encode_Generator.py
     ```
 
-2. **Capture Attendance**: Run `main.py` to start the attendance system.
+2. **Capture Attendance**: Run `demo_main.py` to start the attendance system.
     ```bash
-    python main.py
+    python demo_main.py
     ```
 
 
 ## File Structure
 
-- `encode_generator.py`: Script to generate and save face encodings.
-- `main.py`: Script to capture attendance using face recognition.
+- `demo_Encode_Generator.py`: Script to generate and save face encodings.
+- `demo_main.py`: Script to capture attendance using face recognition.
 - `requirements.txt`: List of required Python packages.
 
 
